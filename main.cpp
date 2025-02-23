@@ -804,3 +804,49 @@ export default GratuityCalculator;
 // int main() {
 //   std::cout << "Hello World!\n";
 // }
+
+
+		Taxable Gratuity Calculator									
+									Dropdown A		Dropdown B
+	A	Assessment year				2025-26			Select		Select
+									2026-27		Central/State govt.
+	B	Type of employer				Other			2025-26		Statutory  Corp
+									2024-25		Local Authority
+									2023-24		Other
+	C	Select if covered under payment of gratuity Act, 1972				Check Box			2022-23		
+									2021-22		
+	D	Select if wages based on piece rate				Check box			2020-21		
+											
+	E	Is seasonal establishment				Check box					
+											
+	F	Length of service period				years	Compute				
+											
+											
+	H	Average of last drawn three months wages (excluding OT)					Compute				
+		Last drawn salary									
+	I	Average salary of last 10 months					Compute				
+											
+	J	Gratuity received									
+											
+	K	Exempted gratuity					Pls refer Flow chart 1				
+											
+	L	Taxable gratuity					Pls refer Flow chart 1				
+											
+											
+											
+	"BR 1: If 'C' is unchecked, then D, E, and H will not be displayed to the user.
+
+
+
+
+
+
+ "										
+	BR 2: If 'C' or "E" is checked, 'I' will not be shown to the user and Caption of H will be 'Last drawn salary'.										
+	BR 3: The user can leave both D and E unchecked. However, the user can check either D or E, but not both i.e. if D checked then E disabled and viceversa.										
+	BR 4: If D is unchecked, the caption of H will be 'Last drawn salary.'However, if D is checked, the caption of H will be "Average of last drawn three months wages (excluding OT)" 										
+	BR 5: Value in F can enter by user manually or compute by , Clicking on compute button ( i.e. As per wireframe 3)										
+	BR 6: If Caption of H is 'Last drawn salary' then it will be user input and 'Compute' button will not displayed to the user.										
+	BR 7: Value of 'I' will be user input. However user can compute by clicking on 'Compute' button (As per wireframe 4)										
+	BR 8: If Caption of H is 'Average of last drawn three months wages (excluding OT)' then 'Compute' button will be displayed to the user and field remain disabled.										
+
